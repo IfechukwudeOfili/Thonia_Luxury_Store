@@ -324,6 +324,9 @@ li {
     scale: 1;
   }
 }
+#homePageProducts ul li:hover{
+  scale: 1.2;
+}
 .productText {
   font-weight: lighter;
   text-align: center;
@@ -1120,16 +1123,27 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 #multipageNav ul li {
-  padding: 15px;
+ 
   font-size: 16px;
   margin: 0 10px;
   width: 50px;
+  
+  font-weight: bold;
+}
+#multipageNav ul li a{
+  width: 100%;
+  padding: 15px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
-}
 
+}
+#multipageNav ul li.inactive-box-number:hover{
+  background-color: rgb(230, 215, 184);
+  cursor: pointer;
+  color: white;
+}
 #multipageNav button {
   padding: 15px;
   text-align: center;
@@ -1149,7 +1163,25 @@ input[type="range"]::-webkit-slider-thumb {
   border: 1.5px solid;
   border-color: rgb(195, 147, 47);
 }
-
+#openFilters{
+  cursor: pointer;
+}
+#openFilters:hover{
+  color: rgb(195, 147, 47);
+}
+#closeFilters{
+  cursor: pointer;
+  color: red;
+}
+#closeFilters:hover{
+  scale: 1.2;
+}
+input[type=range]{
+  cursor: pointer;
+}
+select{
+  cursor: pointer;
+}
 /* individual product styles */
 #clickable {
   color: black;
