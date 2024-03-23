@@ -5,4 +5,4 @@ This is a personal project I made for an actual jewelry store. I designed it put
 
 The project was designed mainly with php and is fully functional with a mySQL database.
 
-The link to a youtube demo will be available soon
+The link to a youtube demo is https://youtu.be/DLQwyHA6VDY
